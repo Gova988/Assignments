@@ -5,7 +5,7 @@ public class CurrentAccount extends Account{
 	
 	public boolean withdraw()
 	{
-		if(overdraftLimit>50000)
+		if(overdraftLimit>500000)
 		{
 			throw new InvalidBalance(" you exceeded the limit");
 		}
